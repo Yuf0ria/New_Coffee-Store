@@ -1,0 +1,169 @@
+body {
+
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+
+    monospace;
+
+}
+
+/* ProductCard.css */
+
+.product-card {
+
+  border: 1px solid #ddd;
+
+  border-radius: 10px;
+
+  width: 300px;
+
+  padding: 20px;
+
+  margin: 15px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.product-card:hover {
+
+  transform: scale(1.05);
+
+}
+
+.product-card img {
+
+  width: 100%;
+
+  border-radius: 10px;
+
+}
+
+.product-card h3 {
+
+  margin: 10px 0;
+
+  font-size: 18px;
+
+}
+
+.product-card p {
+
+  margin: 5px 0;
+
+  font-size: 16px;
+
+  color: #555;
+
+}
+
+.product-card button {
+
+  background-color: #28a745;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+  font-size: 16px;
+
+  transition: background-color 0.2s;
+
+}
+
+.product-card button:hover {
+
+  background-color: #218838;
+
+}
+
+/* Navbar styles */
+
+.navbar {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background-color: #3c403f; /* Dark background color */
+
+  padding: 1rem 2rem; /* Spacing around the navbar */
+
+  color: #ffffff; /* Text color */
+
+}
+
+.navbar-brand {
+
+  font-size: 1.5rem; /* Brand name size */
+
+  font-weight: bold; /* Bold brand name */
+
+  color: white;
+
+}
+
+.navbar-links {
+
+  list-style: none; /* Remove default list styles */
+
+  display: flex; /* Flex layout for links */
+
+  gap: 1.5rem; /* Spacing between links */
+
+}
+
+.navbar-link {
+
+  color: #ffffff; /* Link color */
+
+  text-decoration: none; /* Remove underline from links */
+
+  transition: color 0.3s; /* Smooth color transition */
+
+}
+
+.navbar-link:hover {
+
+  color: #ffb74d; /* Change color on hover */
+
+}
+
+a.navbar-logo {
+
+  color: white;
+
+}
